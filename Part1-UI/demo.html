@@ -1,0 +1,122 @@
+<html>
+<head>
+<title>Demo Page</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+body
+{
+	background-image:url(background.png);
+	background-repeat: no-repeat;
+	width:700px;
+	height:1500px;
+}
+.top-container {
+	background:black;
+	width:365px;
+	margin-top: 0px;
+	padding:0px;
+	height:50px;
+	overflow:hidden;
+}
+.top-container a button{
+	background-color:rgb(15,15,25);
+	color:white;
+	border-color:rgb(12,12,12);
+	border-radius:5px;
+	margin-top:10px;
+	padding: 5px 5px;
+	float:left;
+}
+
+.top-container h5{
+	font-family: sans-serif;
+	color:white;
+	font-weight: bold;
+	padding-top:5px;
+	margin-left:83px;
+	padding-left:50px;
+}
+
+.top-container img{
+    margin-top: -40px;
+    margin-right:11px;
+    float:right;
+    visibility: visible;
+
+}
+#another h4{
+	margin:15px;
+	line-height: 10px;
+}
+
+#another img {
+	border: 3px solid white;
+	margin-top:25px;
+	margin-left:15px;
+	display: block;
+	width:325px;
+	height:175px;
+}
+ h5 {
+	margin:15px;
+	font-family:sans-serif;
+	line-height: 17px;
+
+}
+.vertical-menu {
+	width: 325px;
+	margin:13px;
+	margin-right: -13px;
+	border-radius: 5px;
+    background-color: LightGray;
+}
+.vertical-menu a {
+    background: linear-gradient(to bottom right, white, LightGray);
+    color: rgb(25,25,25);
+    font-weight:bold;
+    font-family:sans-serif;
+    border-bottom-style:ridge;
+    border-bottom-color: rgb(200,200,200);
+    display: block;
+    border-radius:5px;
+    padding: 12px;
+}
+
+.right {
+   float:right;
+   margin:10px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform:rotate(-45deg);
+  -webkit-transform:rotate(-45deg);
+}
+
+</style>
+</head>
+<body>
+		
+<div class="top-container">
+         <a href="#"><button align="left"> < Back </button></a>
+         <h5><strong>Hotel Details</strong></h5>
+         <img src="mklogo.jpg" alt="logo" width="30px" height="30px" float="right">
+</div>
+<div id="another">
+<img src="hotelexterior.jpg" alt="" width="900px" height="300px">
+<h4 style="color:white"><strong>Hilton Chicago</strong></h4>
+<h5 style="color:rgb(95, 158, 160);">720 South Michigan Avenue
+<br/>Chicago,Illinois, 60605</h5>
+<h5 style="color:white" line-height="5px"><u>1-312-922-4400</u></h5>
+</div>
+<div class="vertical-menu">
+  <a href="#">Map<i class="right"></i></a>
+  <a href="#"><strong>Photo gallery</strong><i class="right"></i></a>
+  <a href="#"><strong>Amenities</strong><i class="right"></i></a>
+  <a href="#"><strong>Contact Us</strong><i class="right"></i></a>
+</div>
+
+</body>
+</html>
